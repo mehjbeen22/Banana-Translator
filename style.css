@@ -16,6 +16,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-image: url(./BgImage.jpg);
+  background-repeat: round;
 }
 
 h1 {
@@ -36,6 +38,7 @@ h2 {
   height: 13rem;
   margin: 1rem;
   padding: 1rem;
+  background-color: #fff;
   border: 2px solid #facc15;
   border-radius: 10px;
   outline-color: #84cc16;
