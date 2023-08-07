@@ -1,11 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Hurricane&family=Ysabeau+Office:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Edu SA Beginner", cursive;
+  font-family: "Hurricane", cursive;
+  font-family: "Ysabeau Office", sans-serif;
 }
 .textbox::placeholder {
   font-size: 1.5rem;
 }
+
 body {
   display: flex;
   justify-content: center;
@@ -17,10 +22,18 @@ h1 {
   font-size: 3.5rem;
   margin-block: 2.8rem;
 }
+
+h2 {
+  font-size: 2rem;
+  width: 30%;
+  margin-top: 14px;
+  align-self: normal;
+  margin-left: 21rem;
+}
 .textbox {
   width: 50%;
   height: 13rem;
-  margin: 2rem;
+  margin: 1rem;
   padding: 1rem;
   border: 2px solid #facc15;
   border-radius: 10px;
