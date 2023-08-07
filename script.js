@@ -2,7 +2,6 @@ let textInput = document.getElementById("txtInput");
 let Translatebtn = document.getElementById("Translator");
 let OutputDiv = document.querySelector("#txtTranslated");
 
-// OutputDiv.innerHTML ="hello Mehjbeen"
 
 let serverURL = "https://api.funtranslations.com/translate/minion.json";
 
